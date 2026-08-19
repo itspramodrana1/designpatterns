@@ -1,0 +1,10 @@
+package SOLID_Principle.OpenClosed;
+
+public class UPIService implements PaymentService {
+
+
+    @Override
+    public void processPayment() {
+        System.out.println("UPI Payment");
+    }
+}
